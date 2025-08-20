@@ -89,5 +89,5 @@ def nodes():
 
 if __name__ == '__main__':
     # For development only: run with self-signed certs
-    context = ('cert.pem', 'key.pem')  # Path to your certificate and key
-    app.run(debug=True, ssl_context=context)
+    context = ('./cert.pem', './key.pem')  # Path to your certificate and key
+    app.run(host='0.0.0.0', port=5000,debug=True, ssl_context=context)

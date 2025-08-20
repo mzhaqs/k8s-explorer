@@ -3,9 +3,9 @@ cachetools==5.5.2
 certifi==2025.8.3
 charset-normalizer==3.4.3
 click==8.2.1
+dotenv==0.9.9
 durationpy==0.10
-dynaconf==3.2.11
-Flask==3.1.1
+Flask==3.1.2
 google-auth==2.40.3
 idna==3.10
 itsdangerous==2.2.0
@@ -20,7 +20,7 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.1.1
 python-string-utils==1.0.0
 PyYAML==6.0.2
-requests==2.32.4
+requests==2.32.5
 requests-oauthlib==2.0.0
 rsa==4.9.1
 six==1.17.0

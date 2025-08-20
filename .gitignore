@@ -1,3 +1,4 @@
 .DS_Store
 *.pem
 k8s/*
+Readme.md
